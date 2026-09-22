@@ -231,7 +231,7 @@ Verification is divided into unit tests, focused integration tests, and complete
 The corner-to-corner test injects:
 
 ```text
-128'hDEADBEEF_CAFEF00D_01234567_89ABCDEF
+128'h01234567_89ABCDEF_FEDCBA98_76543210
 ```
 
 at node 0 and expects exactly the same message at node 15 after four intact flits traverse:
