@@ -42,7 +42,7 @@ module noc_scoreboard_tb;
     int ready_phase;
     logic test_done = 1'b0;
     logic force_ready_low = 1'b0;
-    logic [15:0] random_state = 16'hBEEF;
+    logic [15:0] random_state = 16'hA5C3;
 
     mesh_4x4 #(
         .MESSAGE_WIDTH(MESSAGE_WIDTH),
