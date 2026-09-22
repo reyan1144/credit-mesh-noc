@@ -13,8 +13,8 @@ module mesh_4x4_tb;
     localparam int SOURCE_NODE = 0;   // (0,0)
     localparam int DEST_NODE   = 15;  // (3,3)
 
-    localparam logic [MESSAGE_WIDTH-1:0] TEST_MESSAGE =
-        128'hDEADBEEF_CAFEF00D_01234567_89ABCDEF;
+   localparam logic [MESSAGE_WIDTH-1:0] TEST_MESSAGE =
+    128'h01234567_89ABCDEF_FEDCBA98_76543210;
 
     logic clk = 1'b0;
     logic rst = 1'b1;
